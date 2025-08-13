@@ -31,6 +31,7 @@
     <component-override package="com.google.android.gms">
         <component class=".chimera.GmsIntentOperationService$GmsExternalReceiver" enabled="false" />
         <component class=".stats.service.DropBoxEntryAddedReceiver" enabled="false" />
+        <component class=".update.control.NotificationControl" enabled="false" />
         <component class=".update.OtaSuggestionActivity" enabled="false" />
         <component class=".update.OtaSuggestionSummaryProvider" enabled="false" />
         <component class=".update.phone.PopupDialog" enabled="false" />
@@ -52,8 +53,9 @@
     <component-override package="com.google.android.settings.intelligence">
         <component class="com.google.android.settings.intelligence.modules.battery.impl.chargingoptimization.ChargingOptimizationActivity" enabled="false" />
         <component class="com.google.android.settings.intelligence.modules.battery.impl.chargingoptimization.ChargingOptimizationActivityInject" enabled="false" />
+        <component class="com.google.android.settings.intelligence.modules.battery.impl.chargingoptimization.ChargingOptimizationBootBroadcastReceiver" enabled="false" />
+        <component class="com.google.android.settings.intelligence.modules.battery.impl.chargingoptimization.ChargingOptimizationSearchIndexablesProvider" enabled="false" /> 
         <component class="com.google.android.settings.intelligence.modules.battery.impl.health.BHSettingsActivity" enabled="false" />
-        <component class="com.google.android.settings.intelligence.modules.batterywidget.impl.BatteryWidgetPromoActivity" enabled="false" />
         <component class="com.google.android.settings.intelligence.modules.routines.impl.settings.RoutinesSettingsActivity" enabled="false" />
     </component-override>
 </config>
