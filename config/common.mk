@@ -52,7 +52,7 @@ endif
 # Enable Material Design 3 Expressive
 PRODUCT_PRODUCT_PROPERTIES += \
     is_expressive_design_enabled=true
-    
+
 # Animation override
 PERF_ANIM_OVERRIDE ?= false
 PRODUCT_PRODUCT_PROPERTIES += \
