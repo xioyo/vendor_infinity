@@ -48,7 +48,7 @@ endif
 # Enable Material Design 3 Expressive
 PRODUCT_PRODUCT_PROPERTIES += \
     is_expressive_design_enabled=true
-    
+
 # Animation override
 PERF_ANIM_OVERRIDE ?= false
 
@@ -57,7 +57,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Bypass charging
 BYPASS_CHARGE_SUPPORTED ?= false
-PRODUCT_SYSTEM_PROPERTIES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.battery_bypass_supported=$(BYPASS_CHARGE_SUPPORTED)
 
 # Backup Tool
